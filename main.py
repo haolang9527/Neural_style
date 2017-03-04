@@ -7,13 +7,13 @@ from neural_style_model import NS_model
 flags = tf.app.flags
 flags.DEFINE_string("VGG_PATH", "imagenet-vgg-verydeep-19.mat",
                     "path of pre-trained vgg19")
-flags.DEFINE_string("output_dir", "./output_imgs/",
+flags.DEFINE_string("output_dir", "./output_imgs_gakki/",
                     "dir to store neural-style imgs")
-flags.DEFINE_string("content_path", "./src_imgs/gakki.jpg",
+flags.DEFINE_string("content_path", "./src_imgs/1-content.jpg",
                     "path of content image.")
-flags.DEFINE_string("style_path", "./src_imgs/style.jpg",
+flags.DEFINE_string("style_path", "./src_imgs/gakki.jpg",
                     "path of style image.")
-flags.DEFINE_string("save_dir", "./log&ckpt/",
+flags.DEFINE_string("save_dir", "./log/",
                     "dir to store tensorboard log and checkpoints")
 flags.DEFINE_float("learning_rate", 10,
                    "Learning rate of the model.")
