@@ -8,7 +8,7 @@
 	
 用以下命令来自己指定用来训练的图片：
 		
-		python main.py --style_path="Your style image path" -- content_path="Your content image path"
+        python main.py --style_path="Your style image path" -- content_path="Your content image path"
  
  my implement is  based on:
  	 1. https://github.com/anishathalye/neural-style/
@@ -20,10 +20,7 @@ You can download my vgg19  net in my baidu-netdisk:
 	password: xbq6
 
 You can specified your own picture to train, just use this command:
-
-	python main.py --style_path="Your style image path" -- content_path="Your content image path"
-
-for more options of the command , please look into the FLAGS in main.py 
-
-
 	
+    python main.py --style_path="Your style image path" -- content_path="Your content image path"
+
+for more options of the command , please look into the FLAGS in main.py
