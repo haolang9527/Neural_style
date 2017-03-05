@@ -11,7 +11,7 @@ except NameError:
     from functools import reduce
 
 class NS_model(object):
-    """ Neural style model -- re-write by 蔡浩
+    """ Neural style model -- re-write by haolang
 
     """
     def __init__(self, vgg_net, content, style, iterations, save_dir, output_dir,
@@ -20,7 +20,6 @@ class NS_model(object):
         self.vgg_net = vgg_net  # 应该直接传入， 不在这个类里面加载vgg模型
         self.vgg_mean_pixel = np.mean(self.vgg_net['normalization'][0][0][0],
                                       axis=(0, 1)).reshape((1,1,1,3))
-        print self.vgg_mean_pixel
         # 改变content 和 style 的shape， 使得能够喂进网络中
         content = np.reshape(content, (1,) + content.shape)
         style = np.reshape(style, (1,) + style.shape)

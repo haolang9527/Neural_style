@@ -1,3 +1,0 @@
-re-implement based on https://github.com/anishathalye/neural-style/
-
-
