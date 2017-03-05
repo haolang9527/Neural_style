@@ -6,6 +6,7 @@
 你可以在我的百度云下载到训练好的vgg19：
 	链接: https://pan.baidu.com/s/1qXWtbwK 密码: xbq6
 	
+论文和VGG19网络的结构图位于 helper 文件夹里。
 用以下命令来自己指定用来训练的图片：
 		
         python main.py --style_path="Your style image path" -- content_path="Your content image path"
