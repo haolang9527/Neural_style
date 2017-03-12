@@ -4,11 +4,21 @@
 >> + https://github.com/anishathalye/neural-style/
 >> + www.chioka.in/tensorflow-implementation-neural-algorithm-of-artistic-style
  	 
+<<<<<<< HEAD
 >2._你可以在我的百度云下载到训练好的vgg19_:   [链接](https://pan.baidu.com/s/1qXWtbwK) 密码: xbq6
 
 >3.用以下命令来自己指定用来训练的图片：
 		
 >> *`python main.py --style_path="Your style image path" -- content_path="Your content image path"`*
+=======
+你可以在我的百度云下载到训练好的vgg19：
+	链接: https://pan.baidu.com/s/1qXWtbwK 密码: xbq6
+	
+论文和VGG19网络的结构图位于 helper 文件夹里。
+用以下命令来自己指定用来训练的图片：
+		
+        python main.py --style_path="Your style image path" -- content_path="Your content image path"
+>>>>>>> 0d6d969c9b09ab30e92dee3ce32792930de6e6ba
  
 > ## A implement of "A Neural Algorithm of Artistic Style" by tensorflow
 
@@ -20,6 +30,7 @@
 > 2._You can download my vgg19  net in my baidu-netdisk:_  [link]( https://pan.baidu.com/s/1qXWtbwK)
 	password: xbq6
 
+<<<<<<< HEAD
 >3.You can specified your own picture to train, just use this command:
 
 >> `python main.py --style_path="Your style image path" -- content_path="Your content image path"`
@@ -29,3 +40,10 @@
 
 
 	
+=======
+You can specified your own picture to train, just use this command:
+	
+    python main.py --style_path="Your style image path" -- content_path="Your content image path"
+
+for more options of the command , please look into the FLAGS in main.py
+>>>>>>> 0d6d969c9b09ab30e92dee3ce32792930de6e6ba
