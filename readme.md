@@ -7,10 +7,10 @@
 
 >2._你可以在我的百度云下载到训练好的vgg19_:   [链接](https://pan.baidu.com/s/1qXWtbwK) 密码: xbq6
 
->3.用以下命令来自己指定用来训练的图片：
-		
+>3.用以下命令来自己指定用来训练的图片：	
 >> *`python main.py --style_path="Your style image path" -- content_path="Your content image path"`*
 
+>4.论文和算法的pdf详解可以在 ./doc/目录下找到
  
 > ## A implement of "A Neural Algorithm of Artistic Style" by tensorflow
 
@@ -26,3 +26,5 @@
 
 >> `python main.py --style_path="Your style image path" -- content_path="Your content image path"`
 
+
+>4.You can find the paper of this implement and a pdf(by Chinese) to help you to understand this algorithm in dir ./doc
